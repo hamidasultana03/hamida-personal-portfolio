@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hamida Sultana — aspiring web developer and lifelong learner.">
+  <meta name="theme-color" content="#faf9ff">
+  <title>Hamida Sultana | Personal Portfolio</title>
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body class="bg-[#faf9ff] text-slate-800 antialiased selection:bg-violet-200 selection:text-violet-950">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-50 border-b border-violet-100/80 bg-white/90 backdrop-blur-lg">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Main navigation">
+      <a href="#home" class="text-xl font-extrabold tracking-tight text-slate-900">Hamida Sultana<span class="text-violet-600">.</span></a>
+      <div class="hidden items-center gap-8 md:flex">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="hidden rounded-full bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-violet-200 transition hover:-translate-y-0.5 hover:bg-violet-700 md:inline-flex">Let's talk <span aria-hidden="true" class="ml-2">↗</span></a>
+      <details class="relative md:hidden">
+        <summary class="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-xl border border-violet-100 text-xl text-slate-700" aria-label="Open navigation menu">☰</summary>
+        <div class="absolute right-0 top-12 flex w-48 flex-col gap-1 rounded-2xl border border-violet-100 bg-white p-3 shadow-xl">
+          <a class="mobile-link" href="#home">Home</a><a class="mobile-link" href="#about">About</a>
+          <a class="mobile-link" href="#skills">Skills</a><a class="mobile-link" href="#projects">Projects</a>
+          <a class="mobile-link" href="#contact">Contact</a>
+        </div>
+      </details>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="relative overflow-hidden">
+      <div class="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-violet-200/50 blur-3xl"></div>
+      <div class="pointer-events-none absolute -bottom-24 -left-20 h-72 w-72 rounded-full bg-fuchsia-100/70 blur-3xl"></div>
+      <div class="relative mx-auto grid max-w-6xl items-center gap-12 px-5 py-20 md:grid-cols-[1.15fr_.85fr] md:py-28 lg:px-8">
+        <div class="animate-enter">
+          <span class="inline-flex items-center gap-2 rounded-full border border-violet-200 bg-white px-4 py-2 text-sm font-semibold text-violet-700 shadow-sm"><span class="h-2 w-2 rounded-full bg-emerald-500"></span> Welcome to my portfolio</span>
+          <p class="mt-8 text-sm font-bold uppercase tracking-[.25em] text-violet-600">Hello, I'm</p>
+<h1 class="font-extrabold text-slate-950 sm:text-6xl lg:text-7xl">Hamida Sultana</h1>
+          <h2 class="mt-5 text-xl font-bold text-slate-700 sm:text-2xl">Aspiring Web Developer</h2>
+          <p class="mt-5 max-w-xl text-base leading-8 text-slate-600 sm:text-lg">I'm a passionate learner exploring the world of web development. I enjoy creating clean, responsive and user-friendly websites while continuously learning new technologies.</p>
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a href="#projects" class="rounded-full bg-violet-600 px-7 py-3.5 font-semibold text-white shadow-lg shadow-violet-200 transition hover:-translate-y-1 hover:bg-violet-700">View Projects <span aria-hidden="true">↗</span></a>
+            <a href="#contact" class="rounded-full border border-slate-300 bg-white px-7 py-3.5 font-semibold text-slate-700 transition hover:-translate-y-1 hover:border-violet-300 hover:text-violet-700">Contact Me</a>
+          </div>
+          <div class="mt-10 flex items-center gap-5 text-sm text-slate-500"><span class="font-semibold text-slate-700">Based in</span><span class="h-1 w-1 rounded-full bg-violet-400"></span><span>Sylhet, Bangladesh</span></div>
+        </div>
+        <div class="relative mx-auto w-full max-w-sm animate-enter [animation-delay:150ms]">
+          <div class="absolute -inset-4 rotate-6 rounded-[2.5rem] bg-gradient-to-br from-violet-200 to-fuchsia-100"></div>
+          <div class="relative overflow-hidden rounded-[2.2rem] border-8 border-white bg-gradient-to-br from-violet-100 via-white to-fuchsia-100 p-5 shadow-2xl shadow-violet-200/70">
+            <img src="./images/profile-illustration.svg" alt="Decorative illustrated profile avatar" class="mx-auto aspect-square w-full rounded-[1.6rem] object-cover">
+            <div class="mt-4 rounded-2xl bg-white/90 p-4 text-center shadow-sm">
+              <p class="font-bold text-slate-900">Curious mind. Creative heart.</p>
+              <p class="mt-1 text-sm text-slate-500">Learning • Building • Growing</p>
+            </div>
+          </div>
+          <div class="absolute -left-8 top-12 rounded-2xl border border-violet-100 bg-white px-4 py-3 shadow-lg"><span class="text-xl">✦</span><span class="ml-2 text-sm font-bold text-slate-700">Creative</span></div>
+          <div class="absolute -right-5 bottom-24 rounded-2xl border border-violet-100 bg-white px-4 py-3 shadow-lg"><span class="text-xl">⌘</span><span class="ml-2 text-sm font-bold text-slate-700">Developer</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="scroll-mt-24 bg-white py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-5 lg:px-8">
+        <div class="section-heading"><span>GET TO KNOW ME</span><h2>About <em>Me</em></h2><p>A little introduction about who I am and what inspires me.</p></div>
+        <div class="mt-12 grid gap-8 md:grid-cols-[.8fr_1.2fr]">
+          <div class="rounded-3xl bg-gradient-to-br from-violet-600 to-fuchsia-500 p-8 text-white shadow-xl shadow-violet-200">
+            <p class="text-sm font-semibold uppercase tracking-[.2em] text-violet-100">My mindset</p>
+            <p class="mt-5 text-3xl font-extrabold leading-tight">“Every day is a new opportunity to learn and create.”</p>
+            <div class="mt-8 h-1 w-16 rounded-full bg-white/70"></div>
+            <p class="mt-4 text-sm leading-7 text-violet-100">I believe in consistency, curiosity and taking small steps toward meaningful goals.</p>
+          </div>
+          <div class="flex flex-col justify-center">
+            <h3 class="text-2xl font-bold text-slate-900">A learner with big dreams</h3>
+            <p class="mt-4 leading-8 text-slate-600">I am currently pursuing my LLB Honors degree and learning web development alongside my studies. This journey allows me to explore both problem-solving and creativity.</p>
+            <p class="mt-3 leading-8 text-slate-600">I am interested in modern web technologies, artificial intelligence and building useful digital experiences. My goal is to become a skilled professional, grow as a developer and keep exploring opportunities around the world.</p>
+            <div class="mt-7 grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-violet-100 bg-[#faf9ff] p-4"><span class="text-2xl">🎓</span><p class="mt-2 font-bold text-slate-800">Law Student</p><p class="mt-1 text-sm text-slate-500">LLB Honors</p></div>
+              <div class="rounded-2xl border border-violet-100 bg-[#faf9ff] p-4"><span class="text-2xl">💻</span><p class="mt-2 font-bold text-slate-800">Tech Learner</p><p class="mt-1 text-sm text-slate-500">Web Development</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="scroll-mt-24 py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-5 lg:px-8">
+        <div class="section-heading"><span>WHAT I'M LEARNING</span><h2>My <em>Skills</em></h2><p>Technologies I'm currently learning and practising.</p></div>
+        <div class="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <article class="skill-card"><div class="skill-icon text-orange-600">5</div><h3>HTML5</h3><p>Building meaningful and well-structured web pages.</p><span class="skill-tag">Learning & practising</span></article>
+          <article class="skill-card"><div class="skill-icon text-blue-600">3</div><h3>CSS3</h3><p>Styling websites with layouts, spacing and responsive design.</p><span class="skill-tag">Learning & practising</span></article>
+          <article class="skill-card"><div class="skill-icon text-cyan-600">TW</div><h3>Tailwind CSS</h3><p>Creating modern interfaces with utility-first CSS classes.</p><span class="skill-tag">Learning & practising</span></article>
+          <article class="skill-card"><div class="skill-icon text-yellow-600">JS</div><h3>JavaScript</h3><p>Exploring programming fundamentals and interactive websites.</p><span class="skill-tag">Upcoming learning</span></article>
+          <article class="skill-card"><div class="skill-icon text-slate-700">GH</div><h3>Git & GitHub</h3><p>Learning version control and sharing project work online.</p><span class="skill-tag">Learning</span></article>
+          <article class="skill-card"><div class="skill-icon text-violet-600">AI</div><h3>AI & Technology</h3><p>Interested in AI tools, automation and emerging technology.</p><span class="skill-tag">Exploring</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="scroll-mt-24 bg-white py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-5 lg:px-8">
+        <div class="section-heading"><span>MY PRACTICE WORK</span><h2>Featured <em>Projects</em></h2><p>A few sample projects representing the kind of work I am practising.</p></div>
+        <div class="mt-12 grid gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <article class="project-card">
+            <img src="./images/project-landing.svg" alt="Preview illustration of a landing page project" class="project-image">
+            <div class="p-6"><div class="flex flex-wrap gap-2"><span class="project-tag">HTML</span><span class="project-tag">Tailwind CSS</span></div><h3 class="mt-4 text-xl font-bold text-slate-900">Creative Landing Page</h3><p class="mt-3 text-sm leading-7 text-slate-600">A clean landing page concept focused on clear messaging, strong visual hierarchy and responsive layout.</p><p class="mt-4 text-xs font-semibold uppercase tracking-wider text-violet-600">Practice concept</p></div>
+          </article>
+          <article class="project-card">
+            <img src="./images/project-dashboard.svg" alt="Preview illustration of a dashboard project" class="project-image">
+            <div class="p-6"><div class="flex flex-wrap gap-2"><span class="project-tag">HTML</span><span class="project-tag">CSS</span></div><h3 class="mt-4 text-xl font-bold text-slate-900">Simple Dashboard UI</h3><p class="mt-3 text-sm leading-7 text-slate-600">A dashboard interface concept with information cards, navigation and a simple data overview.</p><p class="mt-4 text-xs font-semibold uppercase tracking-wider text-violet-600">Practice concept</p></div>
+          </article>
+          <article class="project-card">
+            <img src="./images/project-portfolio.svg" alt="Preview illustration of a portfolio website project" class="project-image">
+            <div class="p-6"><div class="flex flex-wrap gap-2"><span class="project-tag">HTML</span><span class="project-tag">Tailwind CSS</span></div><h3 class="mt-4 text-xl font-bold text-slate-900">Personal Portfolio</h3><p class="mt-3 text-sm leading-7 text-slate-600">A responsive personal website to introduce my background, learning journey, skills and goals.</p><p class="mt-4 text-xs font-semibold uppercase tracking-wider text-violet-600">Current assignment</p></div>
+          </article>
+        </div>
+        <p class="mt-7 text-center text-sm text-slate-500">These are portfolio practice concepts. Add your own live demo and repository links when available.</p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="scroll-mt-24 py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-5 lg:px-8">
+        <div class="section-heading"><span>MY JOURNEY</span><h2>Education & <em>Learning</em></h2><p>Building knowledge across different fields, one step at a time.</p></div>
+        <div class="mx-auto mt-12 max-w-3xl">
+          <div class="timeline-item"><span class="timeline-dot"></span><p class="text-sm font-bold uppercase tracking-wider text-violet-600">Current academic journey</p><h3 class="mt-2 text-xl font-bold text-slate-900">LLB Honors</h3><p class="mt-2 leading-7 text-slate-600">Currently studying in the 4th year of the Bachelor of Laws (LLB Honors) programme in Bangladesh.</p><p class="mt-2 text-sm text-slate-500">Institution details can be added here.</p></div>
+          <div class="timeline-item"><span class="timeline-dot"></span><p class="text-sm font-bold uppercase tracking-wider text-violet-600">Professional learning</p><h3 class="mt-2 text-xl font-bold text-slate-900">Web Development Course</h3><p class="mt-2 leading-7 text-slate-600">Learning front-end web development, including HTML, CSS and Tailwind CSS, through structured course lessons and hands-on practice.</p><p class="mt-2 text-sm text-slate-500">MERN 19 — Module 4</p></div>
+          <div class="timeline-item border-0"><span class="timeline-dot"></span><p class="text-sm font-bold uppercase tracking-wider text-violet-600">Next goal</p><h3 class="mt-2 text-xl font-bold text-slate-900">JavaScript & Modern Web Technologies</h3><p class="mt-2 leading-7 text-slate-600">My next learning goal is to strengthen JavaScript fundamentals and continue towards full-stack development.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="scroll-mt-24 bg-white py-20 md:py-24">
+      <div class="mx-auto max-w-6xl px-5 lg:px-8">
+        <div class="section-heading"><span>LET'S CONNECT</span><h2>Get In <em>Touch</em></h2><p>Have a question or an opportunity? I'd be happy to hear from you.</p></div>
+        <div class="mt-12 grid gap-10 md:grid-cols-[.8fr_1.2fr]">
+          <div class="rounded-3xl bg-slate-950 p-8 text-white">
+            <h3 class="text-2xl font-bold">Let's start a conversation</h3><p class="mt-3 leading-7 text-slate-300">Feel free to connect with me for learning, collaboration or professional opportunities.</p>
+            <div class="mt-8 space-y-5">
+              <div class="flex items-center gap-4"><span class="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10">✉</span><div><p class="text-xs text-slate-400">Email</p><p class="font-semibold">Add your email address</p></div></div>
+              <div class="flex items-center gap-4"><span class="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10">⌖</span><div><p class="text-xs text-slate-400">Location</p><p class="font-semibold">Sylhet, Bangladesh</p></div></div>
+            </div>
+            <div class="mt-8 border-t border-white/15 pt-6"><p class="text-sm font-semibold text-slate-300">Find me online</p><div class="mt-4 flex gap-3"><a href="https://github.com/" target="_blank" rel="noreferrer" class="social-link" aria-label="GitHub">GH</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" class="social-link" aria-label="LinkedIn">in</a></div></div>
+          </div>
+          <form class="rounded-3xl border border-violet-100 bg-[#faf9ff] p-6 sm:p-8" action="mailto:YOUR_EMAIL@example.com" method="post" enctype="text/plain">
+            <div class="grid gap-5 sm:grid-cols-2">
+              <label class="form-label">Your name<input class="form-input" type="text" name="name" placeholder="Enter your name" required></label>
+              <label class="form-label">Your email<input class="form-input" type="email" name="email" placeholder="Enter your email" required></label>
+            </div>
+            <label class="form-label mt-5">Subject<input class="form-input" type="text" name="subject" placeholder="How can I help?"></label>
+            <label class="form-label mt-5">Message<textarea class="form-input min-h-36 resize-y" name="message" placeholder="Write your message..." required></textarea></label>
+            <button type="submit" class="mt-6 w-full rounded-full bg-violet-600 px-7 py-3.5 font-semibold text-white shadow-lg shadow-violet-200 transition hover:-translate-y-0.5 hover:bg-violet-700">Send Message <span aria-hidden="true">↗</span></button>
+            <p class="mt-3 text-xs leading-5 text-slate-500">Demo contact form: replace YOUR_EMAIL@example.com with your real email. This form uses your device's email app; it does not send messages through a server.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 px-5 py-8 text-center text-sm text-slate-400">
+    <a href="#home" class="text-lg font-extrabold text-white">Hamida Sultana<span class="text-violet-400">.</span></a>
+    <div class="mt-4 flex flex-wrap justify-center gap-x-6 gap-y-2"><a class="footer-link" href="#home">Home</a><a class="footer-link" href="#about">About</a><a class="footer-link" href="#skills">Skills</a><a class="footer-link" href="#projects">Projects</a><a class="footer-link" href="#contact">Contact</a></div>
+    <p class="mt-5">© 2026 Hamida Sultana. All rights reserved.</p>
+    <p class="mt-1 text-xs text-slate-500">Designed and built with HTML & Tailwind CSS.</p>
+  </footer>
+</body>
+</html>
